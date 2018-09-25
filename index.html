@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApplication">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy A Motorcycle</title>
+    <link rel='shortcut icon' type='image/x-icon' href='https://icons.iconarchive.com/icons/aha-soft/transport-for-vista/256/motorcycle-icon.png'/>
+
+</head>
+<body>
+<ul class="nav nav-pills">
+    <li role="presentation" title="Back to my website"><a href="https://moshiko-ohana.herokuapp.com"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+    <li role="presentation" title="After registration you will able to logIn"><a ui-sref="Registration"><span class="glyphicon glyphicon-user"></span>  Register</a></li>
+    <li role="presentation" title="Log in section, first register to continue"><a ui-sref="Login"><span class="glyphicon glyphicon-log-in"></span>  Log In</a></li>
+    <li role="presentation" title="Log out section."><a ui-sref="Logout"><span class="glyphicon glyphicon-log-in"></span>  Log out</a></li>
+    <li role="presentation" title="To see this content, you first need to Reg & Log"><a ui-sref="Motorcycles"><span class="glyphicon glyphicon-road"></span>  Motorcycles</a></li>
+    <li role="presentation" title="To see this content, you first need to Reg & Log"><a ui-sref="Cart"><span class="glyphicon glyphicon-shopping-cart"></span>  Cart</a></li>
+    <li role="presentation" title="Click to see the About page"><a ui-sref="About"><span class="glyphicon glyphicon-info-sign"></span>  About</a></li>
+
+</ul>
+
+<ui-view></ui-view>
+
+<div style="clear:both;"></div>
+</br>
+<div id="footer"><center><strong>Created By Moshiko Ohana 2017</strong></center></div>
+
+<!--Angular scripts -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!--application scripts -->
+<link rel="stylesheet" href="style/app.css">
+<script src="clientApp.js"></script>
+
+<script src="Controllers/RegistrationCtrl.js"></script>
+<script src="Controllers/LoginCtrl.js"></script>
+<script src="Controllers/LogOutCtrl.js"></script>
+<script src="Controllers/AboutCtrl.js"></script>
+<script src="Controllers/Motorcycles.js"></script>
+<script src="Controllers/CartCtrl.js"></script>
+
+<script src="Services/loginService.js"></script>
+<script src="Services/registerService.js"></script>
+<script src="Services/aboutService.js"></script>
+<script src="Services/motorcyclesService.js"></script>
+<script src="Services/cartService.js"></script>
+
+<script src="Directives/motorcycleItem.js"></script>
+<script src="Directives/cartItem.js"></script>
+
+
+</body>
+</html>

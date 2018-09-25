@@ -1,0 +1,30 @@
+</br>
+</br>
+
+<div id="image-head-cart" class="image-head-cart">
+    <div class="centering-hack"></div>
+</div>
+
+</br>
+
+<div id="removeSuccessAlert"></div>
+<div id="removeFailAlert"></div>
+<div id="standByRemoveAlert"></div>
+
+</br>
+
+<cart-item ng-repeat="motorcycle in cartArray track by $index" id="motorcycle.motorcycleId" motorcycle-type="motorcycle.Type"
+                 motorcycle-price="motorcycle.Price" motorcycle-img="motorcycle.Img" ng-click="removeFromCart({$index}); delete($index)">
+</cart-item>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div style="clear:both;"></div>
+<div><center> Total Prices: {{sumOfPrices}} $ </center></div>

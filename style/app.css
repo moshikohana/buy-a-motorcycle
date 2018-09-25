@@ -1,0 +1,96 @@
+#footer {
+    position:relative;
+    left:0px;
+    top:0px;
+    height:40px;
+    width:100%;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black;
+
+    }
+
+input.ng-invalid {
+    background-color:pink;
+}
+input.ng-valid {
+    background-color:lightgreen;
+}
+
+#regContainer {
+    background-image: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+    height: 333px;
+    width: 100%;
+}
+
+#logContainer {
+    background-image: url("https://media.giphy.com/media/xTiTnI1mdyxsFKTFjW/giphy.gif");
+    height: 333px;
+    width: 100%;
+}
+
+.image-head {
+    background-image:url(http://wallpapercave.com/wp/EVUN0dC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.image-head-cart {
+    background-image:url(https://f.vividscreen.info/soft/723a6b8d6ad1dc41ef1c9ac597a5eca4/Golden-Gate-Bridge-San-Francisco-1920x1200.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+#motorcycleImgs {
+    height: 200px;
+    width: 300px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#motorcycleImgs:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#motorcycleFrame {
+    color: black;
+    background-color: lightgray;
+    float: left;
+    margin-left: 33px;
+    margin-top: 33px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
